@@ -1,0 +1,9 @@
+#numpy==1.26.1
+pandas
+#nltk==3.7
+# spacy==3.8.2
+#scipy==1.14.1
+#pillow==11.0.0
+#matplotlib==3.9.2
+#seaborn==0.11.2
+tqdm
