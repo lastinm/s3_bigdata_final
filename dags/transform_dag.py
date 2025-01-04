@@ -52,10 +52,10 @@ def main():
     print(profit_data)
     
     # Получаем текущую дату в нужном формате
-    current_date = '2024-03-01'    # datetime.datetime.now().strftime('%Y-%m-%d')  # Формат YYYY-MM-DD
+    #current_date = '2024-03-01'    # datetime.datetime.now().strftime('%Y-%m-%d')  # Формат YYYY-MM-DD
 
     # Обработка данных
-    transform_data =  transfrom(profit_data, current_date)
+    transform_data =  transfrom(profit_data, date)
     
     # Имя выходного файла, в который будут дописываться данные
     output_filename = 'dags/data/flags_activity.csv'
